@@ -6,6 +6,11 @@
 		<artifactId>spring-cloud-starter-parent</artifactId>
 		<version>Brixton.RELEASE</version>
 	</parent>
+	<properties>
+		<!-- Stand-alone RESTFul application for testing only -->
+		<start-class>it.gf.demo.spring.micro.Main</start-class>
+	</properties>
+	
 	<dependencies>
 		<dependency>
 			<!-- Setup Spring Boot -->
