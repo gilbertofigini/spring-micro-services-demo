@@ -3,7 +3,7 @@ package it.gf.demo.spring.micro;
 public class Main {
 	public static void main(String[] args) {
 //		String serverName = "NO-VALUE";
-		
+		System.out.println("test");
 		switch (args.length) {
 			default:
 				usage();
